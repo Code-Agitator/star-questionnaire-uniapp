@@ -33,14 +33,7 @@ function changeTab(_: any, index: number | string) {
     <slot />
     <!-- 支付宝小程序自定义 tabbar需要特殊处理 -->
     <!-- #ifndef MP-ALIPAY -->
-    <NutTabBar
-      v-model="activeIndex"
-      :size="size" :active-color="aColor"
-      :unactive-color="unColor" safe-area-inset-bottom bottom placeholder @tab-switch="changeTab"
-    >
-      <nut-tabbar-item tab-title="Home" icon="home" @click="changeTab" />
-      <nut-tabbar-item dot tab-title="Count" icon="my" @click="changeTab" />
-    </NutTabBar>
+
     <!-- #endif -->
   </nut-config-provider>
 </template>

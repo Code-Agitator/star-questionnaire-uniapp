@@ -10,8 +10,14 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Counter: typeof import('./../src/components/Counter.vue')['default']
+    NutButton: typeof import('nutui-uniapp/components/button/button.vue')['default']
+    NutCell: typeof import('nutui-uniapp/components/cell/cell.vue')['default']
+    NutCellGroup: typeof import('nutui-uniapp/components/cellgroup/cellgroup.vue')['default']
     NutConfigProvider: typeof import('nutui-uniapp/components/configprovider/configprovider.vue')['default']
+    NutInput: typeof import('nutui-uniapp/components/input/input.vue')['default']
+    NutRow: typeof import('nutui-uniapp/components/row/row.vue')['default']
     NutTabBar: typeof import('nutui-uniapp/components/tabbar/tabbar.vue')['default']
     NutTabbarItem: typeof import('nutui-uniapp/components/tabbaritem/tabbaritem.vue')['default']
+    NutToast: typeof import('nutui-uniapp/components/toast/toast.vue')['default']
   }
 }

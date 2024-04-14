@@ -11,6 +11,5 @@ import { DefaultToken, TokenKey } from '@/constants'
  * @return {RemovableRef<string>} the token value
  */
 export function useToken(initialToken: string = DefaultToken): RemovableRef<string> {
-  const token = useStorageAsync(TokenKey, initialToken)
-  return token
+  return useStorageAsync(TokenKey, initialToken)
 }

@@ -9,26 +9,26 @@ export function showNetworkError({
   fail,
   complete,
 }:
-| {
-  hasPrefix?: boolean
-  message?: string
-  response?: IUnResponse
-  error?: IUnError
-  type?: 'modal'
-  success?: UniApp.ShowModalOptions['success']
-  fail?: UniApp.ShowModalOptions['fail']
-  complete?: UniApp.ShowModalOptions['complete']
-}
-| {
-  hasPrefix?: boolean
-  message?: string
-  response?: IUnResponse
-  error?: IUnError
-  type: 'toast'
-  success?: UniApp.ShowToastOptions['success']
-  fail?: UniApp.ShowToastOptions['fail']
-  complete?: UniApp.ShowToastOptions['complete']
-} = {}) {
+  | {
+    hasPrefix?: boolean
+    message?: string
+    response?: IUnResponse
+    error?: IUnError
+    type?: 'modal'
+    success?: UniApp.ShowModalOptions['success']
+    fail?: UniApp.ShowModalOptions['fail']
+    complete?: UniApp.ShowModalOptions['complete']
+  }
+  | {
+    hasPrefix?: boolean
+    message?: string
+    response?: IUnResponse
+    error?: IUnError
+    type: 'toast'
+    success?: UniApp.ShowToastOptions['success']
+    fail?: UniApp.ShowToastOptions['fail']
+    complete?: UniApp.ShowToastOptions['complete']
+  } = {}) {
   // method
   const method
     = error?.config?.method
