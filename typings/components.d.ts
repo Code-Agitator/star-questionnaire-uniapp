@@ -13,6 +13,8 @@ declare module '@vue/runtime-core' {
     NutButton: typeof import('nutui-uniapp/components/button/button.vue')['default']
     NutCell: typeof import('nutui-uniapp/components/cell/cell.vue')['default']
     NutCellGroup: typeof import('nutui-uniapp/components/cellgroup/cellgroup.vue')['default']
+    NutCheckbox: typeof import('nutui-uniapp/components/checkbox/checkbox.vue')['default']
+    NutCheckboxGroup: typeof import('nutui-uniapp/components/checkboxgroup/checkboxgroup.vue')['default']
     NutConfigProvider: typeof import('nutui-uniapp/components/configprovider/configprovider.vue')['default']
     NutForm: typeof import('nutui-uniapp/components/form/form.vue')['default']
     NutFormItem: typeof import('nutui-uniapp/components/formitem/formitem.vue')['default']
