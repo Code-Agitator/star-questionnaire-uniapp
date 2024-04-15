@@ -139,7 +139,7 @@ declare global {
   const tryOnLoad: typeof import('@uni-helper/uni-use')['tryOnLoad']
   const tryOnMounted: typeof import('@vueuse/core')['tryOnMounted']
   const tryOnReady: typeof import('@uni-helper/uni-use')['tryOnReady']
-  const tryOnScopeDispose: typeof import('@vueuse/core')['tryOnScopeDispose']
+  const tryOnScopeDispose: typeof import('@uni-helper/uni-use')['tryOnScopeDispose']
   const tryOnShow: typeof import('@uni-helper/uni-use')['tryOnShow']
   const tryOnUnload: typeof import('@uni-helper/uni-use')['tryOnUnload']
   const tryOnUnmounted: typeof import('@vueuse/core')['tryOnUnmounted']
@@ -436,6 +436,7 @@ declare module 'vue' {
     readonly tryOnInit: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnInit']>
     readonly tryOnLoad: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnLoad']>
     readonly tryOnReady: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnReady']>
+    readonly tryOnScopeDispose: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnScopeDispose']>
     readonly tryOnShow: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnShow']>
     readonly tryOnUnload: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnUnload']>
     readonly unref: UnwrapRef<typeof import('vue')['unref']>
@@ -567,6 +568,7 @@ declare module '@vue/runtime-core' {
     readonly tryOnInit: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnInit']>
     readonly tryOnLoad: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnLoad']>
     readonly tryOnReady: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnReady']>
+    readonly tryOnScopeDispose: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnScopeDispose']>
     readonly tryOnShow: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnShow']>
     readonly tryOnUnload: UnwrapRef<typeof import('@uni-helper/uni-use')['tryOnUnload']>
     readonly unref: UnwrapRef<typeof import('vue')['unref']>

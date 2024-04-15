@@ -14,10 +14,11 @@ declare module '@vue/runtime-core' {
     NutCell: typeof import('nutui-uniapp/components/cell/cell.vue')['default']
     NutCellGroup: typeof import('nutui-uniapp/components/cellgroup/cellgroup.vue')['default']
     NutConfigProvider: typeof import('nutui-uniapp/components/configprovider/configprovider.vue')['default']
+    NutForm: typeof import('nutui-uniapp/components/form/form.vue')['default']
+    NutFormItem: typeof import('nutui-uniapp/components/formitem/formitem.vue')['default']
     NutInput: typeof import('nutui-uniapp/components/input/input.vue')['default']
-    NutRow: typeof import('nutui-uniapp/components/row/row.vue')['default']
-    NutTabBar: typeof import('nutui-uniapp/components/tabbar/tabbar.vue')['default']
-    NutTabbarItem: typeof import('nutui-uniapp/components/tabbaritem/tabbaritem.vue')['default']
-    NutToast: typeof import('nutui-uniapp/components/toast/toast.vue')['default']
+    NutRadio: typeof import('nutui-uniapp/components/radio/radio.vue')['default']
+    NutRadioGroup: typeof import('nutui-uniapp/components/radiogroup/radiogroup.vue')['default']
+    NutTextarea: typeof import('nutui-uniapp/components/textarea/textarea.vue')['default']
   }
 }

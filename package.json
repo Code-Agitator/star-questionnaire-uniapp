@@ -170,7 +170,7 @@
     "change-case": "4.1.2",
     "core-js": "^3.36.0",
     "dayjs": "^1.11.10",
-    "nutui-uniapp": "^1.7.1",
+    "nutui-uniapp": "^1.7.5",
     "pinia": "2.0.36",
     "qs": "6.5.3",
     "vue": "3.3.11"

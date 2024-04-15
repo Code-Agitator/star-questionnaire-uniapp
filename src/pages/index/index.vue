@@ -1,20 +1,27 @@
 <script setup lang="ts">
-const quesionId = ref('')
+import { useAuthStore } from '@/store'
+
+const questionId = ref('8')
+const authStore = useAuthStore()
+if (!authStore.isExist())
+  uni.navigateTo({ url: 'login' })
 
 function go() {
-
+  uni.navigateTo({ url: `/pages/question/index?id=${questionId.value}` })
 }
 </script>
 
 <template>
-  <nut-cell-group>
-    <nut-cell title="用户名">
-      <nut-input v-model="quesionId" placeholder="问卷序号" />
+  <nut-cell-group class="mt-12">
+    <nut-cell>
+      <nut-input v-model="questionId" placeholder="问卷序号" />
+    </nut-cell>
+    <nut-cell>
+      <nut-button block type="primary" class="login-button" @click="go">
+        填写
+      </nut-button>
     </nut-cell>
   </nut-cell-group>
-  <nut-button type="primary" class="login-button" @click="go">
-    填写
-  </nut-button>
 </template>
 
 <style scoped>

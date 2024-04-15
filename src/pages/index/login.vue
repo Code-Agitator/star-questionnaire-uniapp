@@ -10,10 +10,11 @@ const password = ref('')
 async function login() {
   const data = await unInstance.post('/api/user/login', { username: username.value, password: password.value })
   const resData = data.data as any
-  if (resData.success)
+  if (resData.success) {
     authStore.setToken(resData.data.token)
-  else
-    toast.error(`登录失败:${resData.message}`)
+    await uni.navigateBack({ delta: 1 })
+  }
+  else { toast.error(`登录失败:${resData.message}`) }
 }
 </script>
 
@@ -28,7 +29,7 @@ async function login() {
           <nut-input v-model="password" type="password" placeholder="请输入密码" />
         </nut-cell>
       </nut-cell-group>
-      <nut-button type="primary" class="login-button" @click="login">
+      <nut-button block type="primary" class="login-button" @click="login">
         登录
       </nut-button>
     </div>
