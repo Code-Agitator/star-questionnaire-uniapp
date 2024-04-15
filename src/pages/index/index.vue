@@ -7,21 +7,23 @@ if (!authStore.isExist())
   uni.navigateTo({ url: 'login' })
 
 function go() {
-  uni.navigateTo({ url: `/pages/question/index?id=${questionId.value}` })
+  uni.navigateTo({ url: `/pages/user/user?id=${questionId.value}` })
 }
 </script>
 
 <template>
-  <nut-cell-group class="mt-12">
-    <nut-cell>
-      <nut-input v-model="questionId" placeholder="问卷序号" />
-    </nut-cell>
-    <nut-cell>
-      <nut-button block type="primary" class="login-button" @click="go">
-        填写
-      </nut-button>
-    </nut-cell>
-  </nut-cell-group>
+  <div class="pt-180">
+    <nut-cell-group class="pt-200">
+      <nut-cell>
+        <nut-input v-model="questionId" placeholder="问卷序号" />
+      </nut-cell>
+      <nut-cell>
+        <nut-button block type="primary" class="login-button" @click="go">
+          填写
+        </nut-button>
+      </nut-cell>
+    </nut-cell-group>
+  </div>
 </template>
 
 <style scoped>
