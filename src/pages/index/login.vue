@@ -16,6 +16,11 @@ async function login() {
   }
   else { toast.error(`登录失败:${resData.message}`) }
 }
+async function autoLogin() {
+  username.value = 'admin'
+  password.value = 'root'
+  await login()
+}
 </script>
 
 <template>
@@ -31,6 +36,9 @@ async function login() {
       </nut-cell-group>
       <nut-button block type="primary" class="login-button" @click="login">
         登录
+      </nut-button>
+      <nut-button block type="primary" class="login-button" @click="autoLogin">
+        一键登录
       </nut-button>
     </div>
   </div>
