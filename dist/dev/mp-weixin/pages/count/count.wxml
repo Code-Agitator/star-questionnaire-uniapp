@@ -1,1 +1,0 @@
-<layout-default-uni u-s="{{['d']}}" u-i="30e23d3d-0" bind:__l="__l"><view class="px-4 py-10 text-center text-gray-700 font-sans dark_a_text-gray-200"><counter u-i="30e23d3d-1,30e23d3d-0" bind:__l="__l"/><nut-button u-s="{{['d']}}" u-i="30e23d3d-2,30e23d3d-0" bind:__l="__l">1</nut-button></view></layout-default-uni>

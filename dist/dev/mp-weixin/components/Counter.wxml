@@ -1,1 +1,0 @@
-<view class="my-20 inline-flex items-center gap-100"><button class="h-60 w-60 f-c-c rounded-full lh-60 btn" bindtap="{{a}}"> + </button><view class="font-mono">{{b}}</view><button class="h-60 w-60 f-c-c rounded-full lh-60 btn" bindtap="{{c}}"> - </button></view>

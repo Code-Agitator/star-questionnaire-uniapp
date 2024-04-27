@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "nut-cell-group": "../../node-modules/nutui-uniapp/components/cellgroup/cellgroup",
-    "nut-button": "../../node-modules/nutui-uniapp/components/button/button",
-    "nut-cell": "../../node-modules/nutui-uniapp/components/cell/cell",
-    "nut-input": "../../node-modules/nutui-uniapp/components/input/input"
-  }
-}
