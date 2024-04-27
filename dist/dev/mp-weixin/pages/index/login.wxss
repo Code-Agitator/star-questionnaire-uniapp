@@ -1,0 +1,18 @@
+
+.login-page.data-v-3b4ac9ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-form.data-v-3b4ac9ad {
+  max-width: 320px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-button.data-v-3b4ac9ad {
+  margin-top: 20px;
+}

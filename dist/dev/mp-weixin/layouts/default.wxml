@@ -1,0 +1,1 @@
+<nut-config-provider wx:if="{{a}}" u-s="{{['d']}}" u-i="0fa64c74-0" bind:__l="__l" u-p="{{a}}"><slot/></nut-config-provider>
