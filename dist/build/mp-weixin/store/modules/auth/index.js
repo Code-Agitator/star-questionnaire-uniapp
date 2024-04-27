@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),s=require("../../../composables/useToken.js"),o=require("../../../constants/index.js"),t=e.defineStore("auth",(()=>{const e=s.useToken();return{token:e,setToken:(s=o.DefaultToken)=>{e.value=s},isExist:()=>""!==e.value,getToken:()=>e.value}}));exports.useAuthStore=t;

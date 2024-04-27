@@ -1,0 +1,1 @@
+"use strict";const e={Accept:"application/json","Content-Type":"application/json; charset=utf-8","X-Version":`${"uniapp-vite-template"}/${"0.0.1"}`},t=`token${require("../common/vendor.js").pascalCase("production")}`;exports.DefaultBaseUrl="https://api.github.com/repos/yang1206",exports.DefaultHeaders=e,exports.DefaultToken="",exports.TokenKey=t;

@@ -1,0 +1,1 @@
+"use strict";const n=require("../../common/vendor.js"),e={};if(!Array){((()=>"../../components/Counter.js")+(()=>"../../node-modules/nutui-uniapp/components/button/button.js")+n.resolveComponent("layout-default-uni"))()}const o=n._export_sfc(e,[["render",function(n,e){return{}}]]);wx.createPage(o);

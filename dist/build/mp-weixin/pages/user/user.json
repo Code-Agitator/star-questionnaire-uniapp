@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "nut-form": "../../node-modules/nutui-uniapp/components/form/form",
+    "nut-button": "../../node-modules/nutui-uniapp/components/button/button",
+    "nut-form-item": "../../node-modules/nutui-uniapp/components/formitem/formitem",
+    "nut-input": "../../node-modules/nutui-uniapp/components/input/input"
+  }
+}

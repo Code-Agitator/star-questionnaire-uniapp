@@ -18,7 +18,7 @@ async function login() {
 }
 async function autoLogin() {
   username.value = 'admin'
-  password.value = 'root'
+  password.value = 'admin'
   await login()
 }
 </script>

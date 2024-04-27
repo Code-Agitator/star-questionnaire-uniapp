@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),t=e.defineStore("app",(()=>{const t=e.ref(!1),o=e.ref(0),r=e.ref(),u=e.computed((()=>r.value?r.value.bottom+r.value.top-o.value:0));return{darkMode:t,statusBarHeight:o,customBarHeight:u,menuButtonBounding:r}}));exports.useAppStore=t;

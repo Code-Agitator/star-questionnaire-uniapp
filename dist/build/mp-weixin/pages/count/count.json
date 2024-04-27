@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "default",
+  "navigationBarTitleText": "Count",
+  "usingComponents": {
+    "nut-button": "../../node-modules/nutui-uniapp/components/button/button",
+    "counter": "../../components/Counter"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/count/count",
+    "pages/index/login",
+    "pages/question/index",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "@navBgColor",
+    "navigationBarTextStyle": "@navTxtStyle",
+    "navigationBarTitleText": "uniapp-vite-template",
+    "backgroundColor": "@bgColor",
+    "backgroundTextStyle": "@bgTxtStyle",
+    "backgroundColorTop": "@bgColorTop",
+    "backgroundColorBottom": "@bgColorBottom",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "rgba(255, 255, 255, 0)",
+    "selectedColor": "rgba(255, 255, 255, 0)",
+    "backgroundColor": "rgba(255, 255, 255, 0)",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/count/count",
+        "text": "Count"
+      }
+    ]
+  },
+  "themeLocation": "theme.json",
+  "lazyCodeLoading": "requiredComponents",
+  "darkmode": true,
+  "usingComponents": {
+    "layout-default-uni": "/layouts/default"
+  }
+}
