@@ -37,7 +37,8 @@ async function autoLogin() {
       <nut-button block type="primary" class="login-button" @click="login">
         登录
       </nut-button>
-      <nut-button block type="primary" class="login-button" @click="autoLogin">
+      <div class="w-100 h-12"></div>
+      <nut-button block type="primary"  @click="autoLogin">
         一键登录
       </nut-button>
     </div>
